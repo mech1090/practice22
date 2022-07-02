@@ -4,7 +4,7 @@ const getEmail = (field)=>{
     return User.findOne(field)
 }
 
-const createField = (fileds)=>{
+const createField = (fields)=>{
     return User.create(fields)
 }
 
